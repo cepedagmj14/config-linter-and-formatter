@@ -1,9 +1,9 @@
 {
     "scripts": {
-        "biome:format:check": "biome format ./src",
-        "biome:format:write": "biome format --write ./src",
-        "biome:lint:check": "biome lint ./src",
-        "biome:lint:write": "biome check --apply",
+        "biome:check": "biome format ./src",
+        "biome:write": "biome format --write ./src",
+        "lint:check": "biome lint ./src",
+        "lint:write": "biome check --apply",
         "prepare": "husky"
     }
 }

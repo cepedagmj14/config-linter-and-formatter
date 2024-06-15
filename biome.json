@@ -76,7 +76,12 @@
       "./tsconfig.json",
       "./vite.config.ts"
     ],
-    "ignore": ["node_modules", "**/node_modules/**", "dist", "bin"]
+    "ignore": [
+      "node_modules",
+      "**/node_modules/**",
+      "dist",
+      "bin"
+    ]
   },
   "css": {
     "formatter": {
